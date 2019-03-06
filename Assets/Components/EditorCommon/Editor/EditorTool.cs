@@ -63,11 +63,11 @@ namespace EditorCommon
                     return 4;
                 case TextureImporterFormat.ETC2_RGB4:
                     return 4;
-                case TextureImporterFormat.ETC2_RGBA8:
-                    return 8;
-                case TextureImporterFormat.ATC_RGB4: //	 ATC (ATITC) 4 bits/pixel compressed RGB texture format.
-                    return 4;
-                case TextureImporterFormat.ATC_RGBA8: //	 ATC (ATITC) 8 bits/pixel compressed RGB texture format.
+                // case TextureImporterFormat.ETC2_RGBA8:
+                //     return 8;
+                // case TextureImporterFormat.ETC_RGB4: //	 ATC (ATITC) 4 bits/pixel compressed RGB texture format.
+                //     return 4;
+                case TextureImporterFormat.ETC2_RGBA8: //	 ATC (ATITC) 8 bits/pixel compressed RGB texture format.
                     return 8;
 #pragma warning disable 0618
                 case TextureImporterFormat.AutomaticCompressed:
